@@ -9,25 +9,13 @@
 config_version=4
 
 _global_script_classes=[ {
-"base": "Resource",
-"class": "RandomRange",
-"language": "GDScript",
-"path": "res://addons/custom_exports/resource_scripts/RandomRange.gd"
-}, {
 "base": "Control",
 "class": "ResourceManagerMenu",
 "language": "GDScript",
 "path": "res://addons/custom_exports/ResourceManagerMenu.gd"
-}, {
-"base": "Curve",
-"class": "TestResource",
-"language": "GDScript",
-"path": "res://addons/custom_exports/resource_scripts/TestResource.gd"
 } ]
 _global_script_class_icons={
-"RandomRange": "",
-"ResourceManagerMenu": "",
-"TestResource": ""
+"ResourceManagerMenu": ""
 }
 
 [application]
